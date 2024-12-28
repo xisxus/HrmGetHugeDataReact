@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import MachineData from './component/MachineData'
 import MachineData2 from './component/MachineData2'
+import Shefain1 from './component/Shefain1'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,8 @@ function App() {
       <div>
         {/* <MachineData/> */}
         <MachineData2/>
+        <Shefain1/>
+        
       </div>
     </>
   )
